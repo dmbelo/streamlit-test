@@ -4,7 +4,7 @@ import streamlit as st
 
 st.title("Fruit App")
 
-fruits = ["Apple", "Orange", "Mango", "Banana"]
+fruits = ["Apple", "Orange", "Mango", "Banana", "Kiwi"]
 fruits_selection =  st.multiselect("Select your favorite fruits", fruits, [])
 
 if st.button('Make a smoothie'):
